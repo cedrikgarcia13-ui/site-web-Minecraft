@@ -1,5 +1,5 @@
 html {
-    background: url(images/fond2212.jpg) no-repeat center center fixed;
+    background: url(Images/fond2212.jpg) no-repeat center center fixed;
     background-size:cover;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ padding: 0.2%;
 nav 
 {
     text-align: center;
-    background-image: url(images/bg-menu.jpg);
+    background-image: url(Images/bg-menu.jpg);
     border: 3px white solid;
     padding: 5px;
     border-radius: 10px;
@@ -21,7 +21,7 @@ nav
     
 }
 body {
-    background-image: url(images/bg-stone.jpg);
+    background-image: url(Images/bg-stone.jpg);
     background-size: cover;
     background-attachment: fixed; /* L'image de pierre reste fixe quand on scroll */
     
@@ -47,14 +47,14 @@ p , ul
 }
 footer 
 {
-    background-image: url(images/bg-menu.jpg);
+    background-image: url(Images/bg-menu.jpg);
     background-size:reapeat;
     border: 3px white solid;
     padding: 2%;
     border-radius: 10px; 
 }
 .bloc-site {
-    background-image: url(images/bg-body.jpg);
+    background-image: url(Images/bg-body.jpg);
     background-repeat: no-repeat;
     
     background-size:cover;
