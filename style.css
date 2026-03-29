@@ -1,5 +1,5 @@
 html {
-    background: url(images/fond2212.JPG) no-repeat center center fixed;
+    background: url(images/fond2212.jpg) no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ html {
 
 body 
 {
-    background-image: url(images/bg-stone.JPG);
+    background-image: url(images/bg-stone.jpg);
     background-size: cover;
     background-attachment: fixed;
     
