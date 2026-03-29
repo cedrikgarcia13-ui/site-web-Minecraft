@@ -1,68 +1,103 @@
 html {
-    background: url(Images/fond2212.jpg) no-repeat center center fixed;
-    background-size:cover;
+    background: url(images/fond2212.JPG) no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
-header , a 
+
+body 
 {
-text-align: center;
-margin-bottom: 20px;
-padding: 0.2%;
-}
-nav 
-{
-    text-align: center;
-    background-image: url(Images/bg-menu.jpg);
-    border: 3px white solid;
-    padding: 5px;
-    border-radius: 10px;
-    align-items: baseline;
-    
-}
-body {
-    background-image: url(Images/bg-stone.jpg);
+    background-image: url(images/bg-stone.JPG);
     background-size: cover;
-    background-attachment: fixed; /* L'image de pierre reste fixe quand on scroll */
+    background-attachment: fixed;
     
-    /* C'est ici qu'on définit la largeur du site */
-    width: 60%;         /* Ajuste ce % pour la largeur de ton site */
-    max-width: 1400px;  /* Sécurité pour les très grands écrans */
-    min-height: 100vh;  /* Force le site à aller jusqu'en bas */
-    
-    /* Le centrage parfait sans espace en haut */
-    margin: 0 auto; 
+    width: 60%;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
     padding: 2%;
     
-    /* Ta bordure grise principale */
     border-left: 5px rgb(255, 255, 255) solid;
     border-right: 5px rgb(255, 255, 255) solid;
-    box-sizing: border-box; /* Très important pour que les bordures ne cassent pas la largeur */
+    box-sizing: border-box;
 }
-p , ul
+header 
+{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0.2%;
+}
+
+nav {
+    text-align: center;
+    background-image: url(images/bg-menu.jpg);
+    border: 3px white solid;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex; /* Pour un meilleur alignement des images menus */
+    justify-content: center;
+    gap: 20px;
+}
+nav img {
+    max-height: 50px; /* Ajuste la taille de tes boutons images */
+    transition: transform 0.3s;
+}
+nav img:hover {
+    transform: scale(1.1);
+}
+h1, h2 
+{
+    text-align: center;
+    color: #333; /* Ou la couleur de ton choix */
+}
+
+p, ul 
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    text-align: justify;     
+    text-align: justify;
+    line-height: 1.6; /* Plus lisible */
 }
-footer 
+
+.souligné 
 {
-    background-image: url(Images/bg-menu.jpg);
-    background-size:reapeat;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.engras 
+{
+    font-weight: bold;
+}
+
+.avatars img 
+{
+    display: block;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.bloc-site 
+{
+    background-image: url(images/bg-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px white solid;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+footer {
+    background-image: url(images/bg-menu.jpg);
+    background-repeat: repeat; /* Correction orthographe "reapeat" */
     border: 3px white solid;
     padding: 2%;
-    border-radius: 10px; 
-}
-.bloc-site {
-    background-image: url(Images/bg-body.jpg);
-    background-repeat: no-repeat;
-    
-    background-size:cover;
-    border: 3px white solid;
-    padding: 50px;
     border-radius: 10px;
-}
-h2
-{
     text-align: center;
+    margin-top: 30px;
+}
+.logo-discord img 
+{
+    width: 50px;
+    margin-top: 10px;
 }
