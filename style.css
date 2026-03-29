@@ -27,55 +27,43 @@ header
     margin-bottom: 20px;
     padding: 0.2%;
 }
-
 nav {
     text-align: center;
     background-image: url(images/bg-menu.jpg);
     border: 3px white solid;
     padding: 10px;
     border-radius: 10px;
-    display: flex; /* Pour un meilleur alignement des images menus */
+    display: flex; 
     justify-content: center;
     gap: 20px;
 }
 nav img {
-    max-height: 50px; /* Ajuste la taille de tes boutons images */
+    max-height: 
     transition: transform 0.3s;
 }
 nav img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 h1, h2 
 {
     text-align: center;
-    color: #333; /* Ou la couleur de ton choix */
+    color: #333;
 }
-
 p, ul 
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     text-align: justify;
-    line-height: 1.6; /* Plus lisible */
+    line-height: 1.6;
 }
-
 .souligné 
 {
     text-decoration: underline;
     font-weight: bold;
 }
-
 .engras 
 {
     font-weight: bold;
-}
-
-.avatars img 
-{
-    display: block;
-    margin: 10px auto;
-    border: 2px solid white;
-    border-radius: 5px;
 }
 .bloc-site 
 {
@@ -87,9 +75,10 @@ p, ul
     border-radius: 10px;
     margin-top: 20px;
 }
-footer {
+footer 
+{
     background-image: url(images/bg-menu.jpg);
-    background-repeat: repeat; /* Correction orthographe "reapeat" */
+    background-repeat: repeat;
     border: 3px white solid;
     padding: 2%;
     border-radius: 10px;
